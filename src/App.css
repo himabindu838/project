@@ -1,0 +1,84 @@
+.loginPage{
+    border: 2px solid black;
+    width: 30%;
+    height: 30%;
+    margin: 5%;
+    padding: 3%;
+    text-align: center;
+}
+.userDetails{
+    padding: 4%;
+}
+.loginBackground{
+    background-image: url("https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+    
+
+}
+.login{
+    display: flex;
+    justify-content: center;
+   
+}
+label{
+    color: rgb(44, 9, 124);
+    font-style: italic;
+    font-size: 1.25rem;
+    padding: 1%;
+ }
+.loginInput{
+    border-radius: 2%;
+    margin: 2.5%;
+    padding: 1%;
+}
+button{
+    background-color: rgb(105, 36, 36);
+    color: white;
+    font-size: 1.2rem;
+    border: 1.2px solid black;
+    border-radius: 10%;
+    width: 20%;
+    padding: 1%;
+}
+nav{
+    background-color: cornflowerblue;
+    padding: 0.2px;
+ 
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+   
+}
+.employeeForm{
+    border: 2px solid black;
+    margin: 3%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5%;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+}
+.empData{
+    padding: 1.2%;
+    text-align:center;
+    justify-content: center;
+    display: block;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 1.5rem;
+}
+Link{
+    color: white;
+    text-decoration: none;
+}
